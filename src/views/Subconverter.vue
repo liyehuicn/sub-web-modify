@@ -1010,6 +1010,11 @@ export default {
         window.localStorage.setItem('localTheme', 'light-mode');
       }
     },
+    tanchuang() {
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color:red">
+        dangerouslyUseHTMLString: true,
+        customClass: 'msgbox'
+    },
     onCopy() {
       this.$message.success("已复制");
     },
