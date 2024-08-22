@@ -1011,10 +1011,11 @@ export default {
       }
     },
     tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color:red">
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color:red">apiurl.v1.mk已被蔷，请更换最新的url</br>`, '信息面板', {
+        confirmButtonText: '确定',
         dangerouslyUseHTMLString: true,
         customClass: 'msgbox'
-      );
+      });
     },
     onCopy() {
       this.$message.success("已复制");
